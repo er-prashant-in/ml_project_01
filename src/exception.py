@@ -1,4 +1,4 @@
-import logging
+from src.logger import logging
 import sys
 
 def error_message_detail(error,error_detail:sys):
