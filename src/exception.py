@@ -21,4 +21,4 @@ class CostumException(Exception):
         a=1/0
     except Exception as e:
         logging.info("Divide by zero Error.")
-        raise CostumException(e,sys)'''        
+        raise CostumException(e,sys)'''     
